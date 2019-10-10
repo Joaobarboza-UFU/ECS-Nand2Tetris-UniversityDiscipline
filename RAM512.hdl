@@ -46,4 +46,4 @@ CHIP RAM512 {
 	sel=address[0..2],
 	out=out);
 }
-}
+
