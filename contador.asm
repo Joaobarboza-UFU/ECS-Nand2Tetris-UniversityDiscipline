@@ -4,15 +4,13 @@
 D = M
 @n
 M = D         // n = R0
-@i
-M = 1         // i = 1
+@R2
+C = M
 @SUM
 M = 0         // sum = 0
 (LOOP)
-@i
-D = M
 @n
-D = D - M 
+D = D - C
 @STOP
 D;JGT         // if i > n goto STOP
 
